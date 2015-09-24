@@ -160,7 +160,7 @@ int get_minutes(int seconds) {
 }
 
 int get_seconds(int seconds) {
-	return (seconds % 3600) % 60;
+	return seconds % 60;
 }
 /*
 Implement three functions
